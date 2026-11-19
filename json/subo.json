@@ -1,0 +1,44 @@
+{
+  "spider": "https://github.com/li-zh02/Mytv/raw/refs/heads/main/jar/spider1.jar",
+  "wallpaper": "https://动态壁纸.饭.eu.org/",
+  "sites": [
+    {
+      "key": "site_1795069124519",
+      "name": "速播",
+      "type": 1,
+      "api": "https://subocj.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "速播",
+      "type": 0,
+      "url": "https://subojiexi.com/play/?url=",
+      "ext": {
+        "flag": [
+          "youku",
+          "qq",
+          "iqiyi",
+          "qiyi",
+          "letv",
+          "sohu",
+          "tudou",
+          "pptv",
+          "mgtv",
+          "wasu"
+        ]
+      }
+    }
+  ],
+  "lives": [
+    {
+      "name": "",
+      "type": 0,
+      "url": "",
+      "epg": ""
+    }
+  ]
+}
